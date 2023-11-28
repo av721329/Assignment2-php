@@ -1,0 +1,92 @@
+/* Set the font for the entire page, using  a generic sans-serif font */
+body {
+    font-family: sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for the header section, which includes the main heading */
+/* Header Section */
+/* Header */
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+/* Heading */
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Main content section, centered with a maximum width of 80% */
+#main-content {
+    width: 80%;
+    margin: 0 auto; /* Center the content within the page */
+}
+
+/* Styling for individual article elements within the main content section */
+article {
+    margin-bottom: 30px; /* Add spacing between articles */
+}
+
+/* Styling for the footer section, with a dark background, white text, and padding */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color for contrast */
+    padding: 20px; /* Add padding around the footer content */
+    text-align: center; /* Center-align the text within the footer */
+}
+
+/* Styling for the logo image within the footer */
+#logo img {
+    width: 100px; /* Adjust the width of the logo image */
+    height: 100px; /* Adjust the height of the logo image */
+}
+
+/* Styling for the form, displayed as a column with a maximum width of 300px, centered on the page */
+form {
+    display: flex; /* Use flex display for a flexible layout */
+    flex-direction: column; /* Arrange form elements in a column */
+    max-width: 300px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form within the page */
+}
+
+/* Styling for the submit button, with a background color, white text, padding, no border, and a cursor pointer */
+button {
+    background-color: rgb(32, 104, 85); /* Background color in a golden hue */
+    color: #fff; /* White text color for contrast */
+    padding: 10px; /* Add padding to the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Styling for the submit button on hover, with a darker background color */
+button:hover {
+    background-color: #333; /* Darker background color on hover */
+}
+
+.right-align-container {
+    text-align: right;
+}
